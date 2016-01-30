@@ -18,3 +18,6 @@ RobustMultiLineupOptimizer - Robust in the projections for contemporaneous lineu
 Dependencies:
 - pulp
 - numpy
+
+Usage:
+Notice that these classes don't come with any constraints applied. To create an optimizer for a specific sport/dfs site, I have factory functions which modify these classes to have the appropriate constraint sets for each site and sport. I need to do an overhaul on this, though, before adding it.
